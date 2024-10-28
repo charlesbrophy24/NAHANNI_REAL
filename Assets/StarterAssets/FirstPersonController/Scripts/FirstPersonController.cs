@@ -113,6 +113,11 @@ namespace StarterAssets
 
 		private void Update()
 		{
+			if (!IsOwner){
+
+				return;
+
+			}
 			JumpAndGravity();
 			GroundedCheck();
 			Move();
