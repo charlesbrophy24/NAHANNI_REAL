@@ -1072,7 +1072,7 @@ MonoBehaviour:
   NetworkConfig:
     ProtocolVersion: 0
     NetworkTransport: {fileID: 921703653}
-    PlayerPrefab: {fileID: 1686420146253515233, guid: c8e660022cd7af841bcbb1352b1e3b08,
+    PlayerPrefab: {fileID: 1615043765998751521, guid: 027ca58694ffd0243b822a704c525953,
       type: 3}
     Prefabs:
       NetworkPrefabsLists:
@@ -1334,7 +1334,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'HOST
+  m_text: 'CLIENT
 
 '
   m_isRightToLeft: 0

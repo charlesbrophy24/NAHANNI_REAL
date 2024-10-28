@@ -115,6 +115,7 @@ namespace StarterAssets
 		{
 			if (!IsOwner){
 
+				_mainCamera.GetComponent<Camera>().enabled = false;
 				return;
 
 			}
@@ -125,6 +126,13 @@ namespace StarterAssets
 
 		private void LateUpdate()
 		{
+
+			if (IsOwner){
+
+				return;
+
+			}
+
 			CameraRotation();
 		}
 
