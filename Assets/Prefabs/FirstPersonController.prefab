@@ -184,7 +184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 0
+  GlobalObjectIdHash: 1413078685
   InScenePlacedSourceGlobalObjectIdHash: 0
   AlwaysReplicateAsRoot: 0
   SynchronizeTransform: 1
@@ -205,7 +205,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d90ba6530d9bfda47abb4610956b2f44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCamera: {fileID: 3620021947143568846}
+  playerCamera: {fileID: 0}
   fov: 60
   invertCamera: 0
   cameraCanMove: 1
@@ -215,7 +215,7 @@ MonoBehaviour:
   crosshair: 1
   crosshairImage: {fileID: 21300000, guid: be4ce60e2c9768c44b9b10b9c5258045, type: 3}
   crosshairColor: {r: 1, g: 1, b: 1, a: 1}
-  enableZoom: 1
+  enableZoom: 0
   holdToZoom: 1
   zoomKey: 324
   zoomFOV: 30
@@ -237,7 +237,7 @@ MonoBehaviour:
   sprintBar: {fileID: 0}
   sprintBarWidthPercent: 0.3
   sprintBarHeightPercent: 0.02
-  enableJump: 1
+  enableJump: 0
   jumpKey: 32
   jumpPower: 5
   enableCrouch: 1
@@ -245,7 +245,7 @@ MonoBehaviour:
   crouchKey: 306
   crouchHeight: 0.75
   speedReduction: 0.5
-  enableHeadBob: 1
+  enableHeadBob: 0
   joint: {fileID: 7691596007932026621}
   bobSpeed: 10
   bobAmount: {x: 0, y: 0.1, z: 0}
