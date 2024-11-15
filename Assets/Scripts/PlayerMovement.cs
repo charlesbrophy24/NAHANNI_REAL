@@ -12,7 +12,7 @@ public class PlayerMovement : NetworkBehaviour
 
     [Header("Mouse Settings")]
     public float mouseSensitivity = 100f;
-    public Transform playerCamera;  // Changed from Transform to Camera
+    public Camera playerCamera;  // Changed from Transform to Camera
 
     private CharacterController controller;
     private Vector3 velocity;
@@ -38,8 +38,14 @@ public class PlayerMovement : NetworkBehaviour
 
     void Update()
     {
-        Debug.Log("Velocity Magnitude: " + controller.velocity.magnitude);
-        
+
+        if (!IsOwner){
+
+            playerCamera.gameObject.SetActive(false);
+
+            return;
+
+        }
         HandleMovement();
         HandleMouseLook();
         HandleHeadBobbing();
@@ -79,7 +85,7 @@ public class PlayerMovement : NetworkBehaviour
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
         // Rotate the camera around the X-axis
-        playerCamera.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+        playerCamera.transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
 
         // Rotate the player object around the Y-axis
         transform.Rotate(Vector3.up * mouseX);
