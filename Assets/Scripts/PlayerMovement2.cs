@@ -2,7 +2,7 @@ using UnityEngine;
 using Unity.Netcode;
 
 [RequireComponent(typeof(CharacterController))]
-public class PlayerMovement : NetworkBehaviour
+public class PlayerMovement2 : NetworkBehaviour
 {
     [Header("Movement Settings")]
     public float walkSpeed = 5f;
