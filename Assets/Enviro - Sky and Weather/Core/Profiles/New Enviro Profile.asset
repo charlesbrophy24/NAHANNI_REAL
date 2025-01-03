@@ -916,7 +916,7 @@ MonoBehaviour:
     glowTexture: {fileID: 2800000, guid: 00a0c0aaae744a04aa4bec459a082a12, type: 3}
     moonColor: {r: 0.66176474, g: 0.66176474, b: 0.66176474, a: 1}
     moonBrightness: 1.7
-    moonSize: 7
+    moonSize: 5.3
     glowSize: 17
     moonGlow:
       serializedVersion: 2
@@ -1512,7 +1512,7 @@ MonoBehaviour:
     shadowIntensity: 0
     shadowCookieSize: 1000
     ParticleCloudsLayer1:
-      height: 0.01
+      height: 0.0185
       particleCloudsColor:
         serializedVersion: 2
         key0: {r: 0.14273356, g: 0.15116781, b: 0.17647058, a: 1}
@@ -1544,7 +1544,7 @@ MonoBehaviour:
         m_NumColorKeys: 5
         m_NumAlphaKeys: 2
     ParticleCloudsLayer2:
-      height: 0.01
+      height: 0.0154
       particleCloudsColor:
         serializedVersion: 2
         key0: {r: 0.14273356, g: 0.15116781, b: 0.17647058, a: 1}
@@ -1965,8 +1965,8 @@ MonoBehaviour:
   showPlayerSetup: 1
   showRenderingSetup: 0
   showComponentsSetup: 0
-  showTimeUI: 0
-  showWeatherUI: 0
-  showAudioUI: 0
-  showEffectsUI: 0
-  modified: 0
+  showTimeUI: 1
+  showWeatherUI: 1
+  showAudioUI: 1
+  showEffectsUI: 1
+  modified: 1

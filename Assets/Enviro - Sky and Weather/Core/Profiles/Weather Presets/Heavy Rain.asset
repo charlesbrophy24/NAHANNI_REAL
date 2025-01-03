@@ -55,8 +55,6 @@ MonoBehaviour:
   fogStartDistance: 0
   fogDistance: 0
   fogDensity: 0.001
-  fogAttenuationDistance: 340
-  fogRelativeFogHeight: 837
   weatherSkyMod:
     serializedVersion: 2
     key0: {r: 0, g: 0, b: 0, a: 1}
@@ -84,6 +82,7 @@ MonoBehaviour:
     atime6: 0
     atime7: 0
     m_Mode: 0
+    m_ColorSpace: -1
     m_NumColorKeys: 4
     m_NumAlphaKeys: 4
   weatherLightMod:
@@ -113,6 +112,7 @@ MonoBehaviour:
     atime6: 0
     atime7: 0
     m_Mode: 0
+    m_ColorSpace: -1
     m_NumColorKeys: 4
     m_NumAlphaKeys: 4
   weatherFogMod:
@@ -142,6 +142,7 @@ MonoBehaviour:
     atime6: 0
     atime7: 0
     m_Mode: 0
+    m_ColorSpace: -1
     m_NumColorKeys: 4
     m_NumAlphaKeys: 4
   volumeLightIntensity: 0.15
@@ -163,7 +164,6 @@ MonoBehaviour:
   temperatureLevel: -2
   isLightningStorm: 0
   lightningInterval: 10
-  auroraIntensity: 0
   weatherSFX: {fileID: 8300000, guid: e60b9243727bbb5428fbb3e7f7fe44cd, type: 3}
   SpringDayAmbient: {fileID: 0}
   SpringNightAmbient: {fileID: 0}
