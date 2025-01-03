@@ -807,7 +807,19 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Standalone: JUPITER
+    Android: ENVIRO_LW;ENVIRO_LWRP
+    EmbeddedLinux: ENVIRO_LW;ENVIRO_LWRP
+    GameCoreXboxOne: ENVIRO_LW;ENVIRO_LWRP
+    Nintendo Switch: ENVIRO_LW;ENVIRO_LWRP
+    PS4: ENVIRO_LW;ENVIRO_LWRP
+    PS5: ENVIRO_LW;ENVIRO_LWRP
+    QNX: ENVIRO_LW;ENVIRO_LWRP
+    Stadia: ENVIRO_LW;ENVIRO_LWRP
+    Standalone: JUPITER;ENVIRO_LW;ENVIRO_LWRP
+    VisionOS: ENVIRO_LW;ENVIRO_LWRP
+    WebGL: ENVIRO_LW;ENVIRO_LWRP
+    XboxOne: ENVIRO_LW;ENVIRO_LWRP
+    tvOS: ENVIRO_LW;ENVIRO_LWRP
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
