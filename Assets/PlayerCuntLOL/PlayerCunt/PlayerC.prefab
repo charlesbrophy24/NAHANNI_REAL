@@ -40,7 +40,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1350887928963011089}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 99a43cc966274394d9c136c03579981c, type: 3}
   m_Name: 
@@ -165,8 +165,8 @@ GameObject:
   - component: {fileID: 4080512011873621526}
   - component: {fileID: 2531081092937565964}
   - component: {fileID: 7384084017179373423}
-  - component: {fileID: 4304013749844560028}
   - component: {fileID: 1125478897752876839}
+  - component: {fileID: 6833585329011635739}
   - component: {fileID: 7731960613503593208}
   m_Layer: 0
   m_Name: PlayerC
@@ -258,34 +258,6 @@ MonoBehaviour:
   interactPrompt: {fileID: 0}
   interactMessage: Press E to pick up
   rayDistance: 3
---- !u!114 &4304013749844560028
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4477600227497209257}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2968d6d41caf4f409f21f9ae4b82e2b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  walkSpeed: 5
-  sprintSpeed: 10
-  crouchSpeed: 2.5
-  jumpHeight: 2
-  jumpBoost: 2.2
-  zoomFOV: 40
-  zoomSpeed: 10
-  mouseSensitivity: 600
-  cameraTransform: {fileID: 6601365190654973283}
-  sprintKey: 304
-  crouchKey: 306
-  zoomKey: 118
-  jumpKey: 32
-  headTransform: {fileID: 6717656677364061777}
-  gravityMultiplier: 2
-  fallMultiplier: 2.5
 --- !u!114 &1125478897752876839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -307,6 +279,34 @@ MonoBehaviour:
   SpawnWithObservers: 1
   DontDestroyWithOwner: 0
   AutoObjectParentSync: 1
+--- !u!114 &6833585329011635739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4477600227497209257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2968d6d41caf4f409f21f9ae4b82e2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkSpeed: 5
+  sprintSpeed: 10
+  crouchSpeed: 2.5
+  jumpHeight: 2
+  jumpBoost: 2.2
+  zoomFOV: 40
+  zoomSpeed: 10
+  mouseSensitivity: 600
+  cameraTransform: {fileID: 0}
+  sprintKey: 304
+  crouchKey: 306
+  zoomKey: 118
+  jumpKey: 32
+  headTransform: {fileID: 0}
+  gravityMultiplier: 2
+  fallMultiplier: 2.5
 --- !u!114 &7731960613503593208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -407,7 +407,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.03
-  far clip plane: 1000
+  far clip plane: 3000
   field of view: 70
   orthographic: 0
   orthographic size: 5
